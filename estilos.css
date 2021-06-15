@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.logo{
+  font-family: 'Krona One', sans-serif
+  }
+.tipografía-menu{
+  font-family: 'Roboto Slab', serif;
+  }
+body{
+  margin:0;
+  padding:0;
+  background-color: whitesmoke;
+  min-width: 500px;
+  }
+.menu{
+  position:fixed;
+  width: 100%;
+  }
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+  }
+.mano{
+  margin-top: 2rem;
+}
+
+header .contenedor{
+  display: flex;
+  justify-content: space-between;
+  background-color:whitesmoke;
+  }
+header nav ul li{
+  display: inline-block;
+  }
+header ul li a{
+  text-decoration: none;
+  color:black;
+  line-height: 15px;
+  }
+header ul li{
+    margin: 0 28px;
+    font-size: 1rem;
+    line-height: 2.5em;    
+  }
+header p{
+  font-size: 2rem;
+}
+header img{
+  width:138.76px;
+  height:100px;
+  margin-top: 0.2rem;
+}
+main section{
+  font-family:'Roboto Slab', serif;
+  color:black;  
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pregunta{
+  font-size: large;
+  height:10px;
+  margin-top: 3cm;
+}
+
+.caja{
+  width: 9.4cm;
+}
+.submitir{
+  background-color:gold;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+
+#img-tool{
+  width: 696.5px;
+  
+  }
+
+.nav-lista{
+  text-align: left;
+}
+  
+.grillo{
+  width:116px;
+  height: 95.5px;
+}
+@media (max-width: 720px) {
+  main p {
+    font-size: small;
+  }
+}
+@media (max-width:720px){
+  #img-tool{
+    width: 50%;
+    height: auto;
+  }
+}
+
+
+
+
