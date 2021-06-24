@@ -1,3 +1,7 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 .logo{
@@ -93,6 +97,24 @@ main section{
   width:116px;
   height: 95.5px;
 }
+.contenedor-footer{
+  display: flex;
+  background-color: rgba(255, 166, 0, 0.578);
+  padding: 30px;
+}
+.contacto-footer{
+  margin-right: 80px;
+}
+.redes{
+  height: 20px;
+  width: auto;
+  display: flex;
+}
+.call, .email{
+  font-size: 30px;
+}
+
+
 @media (max-width: 720px) {
   main p {
     font-size: small;
