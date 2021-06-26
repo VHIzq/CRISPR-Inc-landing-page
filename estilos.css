@@ -83,7 +83,6 @@ main section{
   margin-top: 10px;
 }
 
-
 #img-tool{
   width: 696.5px;
   
@@ -97,24 +96,40 @@ main section{
   width:116px;
   height: 95.5px;
 }
-.contenedor-footer{
-  display: flex;
-  background-color: rgba(255, 166, 0, 0.578);
-  padding: 30px;
+.izquierda{
+  position: relative;
+  display: inline-block;
+  left: 30vw;
 }
 .contacto-footer{
-  margin-right: 80px;
-}
-.redes{
-  height: 20px;
-  width: auto;
-  display: flex;
-}
-.call, .email{
   font-size: 30px;
 }
-
-
+.email, .call{
+  font-size: 30px;
+}
+.derecha{
+  position: relative;
+  display: inline-block;
+  left: 40vw;
+  top: -25px;
+}
+footer ion-icon{
+  font-size: 40px;
+}
+footer{
+  background-color: darkslategray;
+  color: whitesmoke;
+}
+.logo-fb{
+  margin-bottom: 20px;
+}
+.modo-oscuro-btn{
+  border-radius: 5px;
+}
+.modo-oscuro{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
 @media (max-width: 720px) {
   main p {
     font-size: small;
